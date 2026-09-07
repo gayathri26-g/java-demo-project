@@ -12,7 +12,7 @@ public class EmployeeController {
 
     @GetMapping("/hello")
     public String hello() {
-        logger.info("hello() called - returning Hello Employee");
-        return "Hello Employee";
+        logger.info("hello() called - returning Hello World");
+        return "Hello World";
     }
 }
